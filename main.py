@@ -7,7 +7,7 @@ import database_manager as dbm  # Ensure your db_manager is in the same folder
 
 # Load environment variables from .env file
 load_dotenv()
-TOKEN = os.getenv('DISCORD_BOT_TOKEN')
+TOKEN = os.getenv('DISCORD_BOT_TOKEN') #New token is generated
 
 # 1. Bot Setup
 intents = discord.Intents.default()
