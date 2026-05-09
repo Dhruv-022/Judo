@@ -43,6 +43,7 @@ class SupremeBot(commands.Bot):
         await self.load_extension("cogs.emergency")
         await self.load_extension("cogs.ghost_log")
         await self.load_extension("cogs.stealth")
+        await self.load_extension("cogs.help_cog")
         print("✅ All Supreme Modules Loaded")
 
     async def scrub_ghost_data(self):
